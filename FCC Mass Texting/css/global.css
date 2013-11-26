@@ -1,0 +1,97 @@
+select {
+	-webkit-appearance: none;
+	padding: 2%; 
+	border-radius: 1px; 
+	background-color: white; 
+	width: 90%;
+	margin-top: 50px;
+	background-color: white;
+	color: #30445d;
+	border-radius: 5px;
+}
+
+textarea {
+	width: 80%; 
+	margin-top:20px; 
+	margin-bottom: 20px; 
+	border-radius:20px;
+	background-color: white;
+	color: #30445d;
+	padding: 5%;
+}
+
+select, textarea, option, input {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+input, button {
+	padding: 30px;
+	border-radius: 5px;
+	width: 75%;
+	margin-top: 5%;
+	background-color: white;
+	color: #30445d;
+	font-size: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+body {
+	background-color: #30445d;
+}
+
+#content {
+	text-align: center;
+	height: auto;
+}
+
+.remainingChars {
+	width: 90%;
+	height: 10%;
+	display: block;
+	font-size: 50px;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.results_page {
+	font-size: 60px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	width: 80%;
+	margin-top: 10%;		
+	margin-left: 10%;
+}
+
+.number_list table {
+	display: block;
+	font-size: 60px;
+	color: #30445d;
+	margin-top: 5%;
+	width: 60%;
+	border: 2px solid white;
+	margin-left: 20%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.number_list table tr {
+	text-align: center;
+}
+
+.number_list table tr.even {
+	background-color: #366378;
+	color: white;
+	text-align: center;
+}
